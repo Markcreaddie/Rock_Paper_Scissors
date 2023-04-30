@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.content{
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    align-items: center;
+    background-color:maroon;
+    margin: 32px;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: dashed;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instructions p{
+    margin: 8px;
+}
+
+.content div{
+    padding: 8px;
+    color: antiquewhite;
+    font-weight: bold;
+}
